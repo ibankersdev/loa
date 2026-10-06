@@ -203,7 +203,7 @@ body{
   .day-lines div:nth-child(3) { color:#8958d9; }
   .calendar-legend { margin-top:7px; color:#748196; font-size:10px; display:flex; gap:10px; }
   .legend-dot { width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:3px; }
-  .legend-mms { background:#2777e8; } .legend-push { background:#00a18d; } .legend-rcs { background:#8958d9; }
+  .legend-lms { background:#009999; } .legend-mms { background:#2777e8; } .legend-push { background:#00a18d; } .legend-rcs { background:#8958d9; }
  
   .notice { margin-top:2px; }
   .notice-title { font-weight:700; color:#4b5b72; margin-bottom:4px;font-size: 13px}
@@ -388,7 +388,7 @@ body{
             </div>
             <div class="calendar" id="calendar"></div>
             <div class="calendar-legend">
-            <span><i class="legend-dot legend-mms"></i>L : LMS</span>
+            <span><i class="legend-dot legend-lms"></i>L : LMS</span>
             <span><i class="legend-dot legend-mms"></i>M : MMS</span>
             <span><i class="legend-dot legend-push"></i>P : PUSH</span>
             <span><i class="legend-dot legend-rcs"></i>R : RCS</span>
@@ -460,6 +460,7 @@ body{
           </div>
           <div class="card metric-card">
           <div class="metric-title">오늘 캐파 사용 현황</div>
+          <div class="channel-row"><span class="channel-label">LMS</span><div class="bar"><span class="bar-blue" style="width:80%"></span></div><span class="channel-pct">80%</span><span style="font-size:10px;color:#738096">14,000</span></div>
           <div class="channel-row"><span class="channel-label">MMS</span><div class="bar"><span class="bar-blue" style="width:68%"></span></div><span class="channel-pct">68%</span><span style="font-size:10px;color:#738096">204,000</span></div>
           <div class="channel-row"><span class="channel-label">PUSH</span><div class="bar"><span class="bar-green" style="width:42%"></span></div><span class="channel-pct">42%</span><span style="font-size:10px;color:#738096">63,000</span></div>
           <div class="channel-row"><span class="channel-label">RCS</span><div class="bar"><span class="bar-purple" style="width:31%"></span></div><span class="channel-pct">31%</span><span style="font-size:10px;color:#738096">29,000</span></div>
